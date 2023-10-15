@@ -1,0 +1,8 @@
+
+1. FIREBASE REALTIME DATABASE
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
